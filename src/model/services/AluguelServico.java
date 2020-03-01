@@ -17,9 +17,9 @@ public class AluguelServico {
     private Double precoPorHora;
     private Double precoPorDia;
     
-    private BrasilTaxaServico brasilTaxaServico;
+    private TaxaServico brasilTaxaServico; /*Estou dizendo que a classe AluguelServico vai ter dependencia da interface "TaxaServico"*/
 
-    public AluguelServico(Double precoPorHora, Double precoPorDia, BrasilTaxaServico brasilTaxaServico) {
+    public AluguelServico(Double precoPorHora, Double precoPorDia, TaxaServico brasilTaxaServico) {
         this.precoPorHora = precoPorHora;
         this.precoPorDia = precoPorDia;
         this.brasilTaxaServico = brasilTaxaServico;

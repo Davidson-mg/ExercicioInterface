@@ -6,7 +6,8 @@
 package model.services;
 
 
-public class BrasilTaxaServico {
+public class BrasilTaxaServico implements TaxaServico { /*Com a palvra reservada "implements", estou dizendo que a classe BrasilTaxaServico vai ser
+    um complemento da classe TaxaServico*/
     
     public double taxa(double valor){
     
